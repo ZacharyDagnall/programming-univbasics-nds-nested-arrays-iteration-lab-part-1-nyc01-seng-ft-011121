@@ -3,7 +3,10 @@ def find_even_values(src)
   ycount=0 
   while xcount < src.length do
     while ycount < src[xcount].length do
-      puts src[xcount][ycount]
+      n = src[xcount][ycount]
+      if n%2==0
+        puts n
+      end
       ycount+=1
     end 
     xcount+=1 
