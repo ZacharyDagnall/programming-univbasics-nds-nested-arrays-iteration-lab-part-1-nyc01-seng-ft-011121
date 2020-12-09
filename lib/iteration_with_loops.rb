@@ -1,5 +1,5 @@
 def find_even_values(src)
-  puts src
+  print src
   xcount=0 
   ycount=0 
   while xcount < src.length do
