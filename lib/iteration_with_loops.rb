@@ -1,5 +1,8 @@
+require 'pry'
+
 def find_even_values(src)
-  print src
+  puts src
+  binding.pry
   xcount=0 
   ycount=0 
   while xcount < src.length do
