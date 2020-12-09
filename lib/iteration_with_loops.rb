@@ -1,6 +1,28 @@
-def find_even_values(src)
-  # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
-  #
-  # Output all even values in each nested array
+require 'pry'
 
-end
+def find_even_values(src)
+  # xcount=0 
+  # ycount=0 
+  # while xcount < src.length do
+  #   while ycount < src[xcount].length do
+  #     n = src[xcount][ycount]
+  #     binding.pry
+  #     if n%2==0
+  #       puts n
+  #     end
+  #     ycount+=1
+  #   end 
+  #   xcount+=1 
+  # end 
+  
+  #I tried using brackets instead of do...end, why doesn't that work as well?? kept giving me problems
+  
+  for i in 0...src.length do 
+    for j in 0...src[i].length do
+      if (src[i][j]%2==0)
+        puts src[i][j]
+      end
+    end
+  end
+  
+end 
