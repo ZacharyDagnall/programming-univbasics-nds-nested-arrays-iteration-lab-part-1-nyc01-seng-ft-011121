@@ -6,7 +6,9 @@ def find_even_values(src){
   while xcount < src.length do
     while ycount < src[xcount].length do
       puts src[xcount][ycount]
+      ycount+=1
     end 
+    xcount+=1 
   end 
   
   
