@@ -15,6 +15,8 @@ def find_even_values(src)
   #   xcount+=1 
   # end 
   
+  #I tried using brackets instead of do...end, why doesn't that work as well?? kept giving me problems
+  
   for i in 0...src.length do 
     for j in 0...src[i].length do
       if (src[i][j]%2==0)
