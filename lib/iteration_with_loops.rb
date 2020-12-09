@@ -16,9 +16,9 @@ def find_even_values(src)
   # end 
   for i in 0...src.length { 
     for j in 0...src[i].length {
-      if (src[i][j]%2==0)
+      if (src[i][j]%2==0){
         puts src[i][j]
-      end
+      }
     }
   }
 end 
