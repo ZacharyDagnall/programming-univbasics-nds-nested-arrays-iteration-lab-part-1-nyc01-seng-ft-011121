@@ -2,12 +2,12 @@ require 'pry'
 
 def find_even_values(src)
   puts src
-  binding.pry
   xcount=0 
   ycount=0 
   while xcount < src.length do
     while ycount < src[xcount].length do
       n = src[xcount][ycount]
+      binding.pry
       if n%2==0
         puts n
       end
